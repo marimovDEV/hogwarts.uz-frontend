@@ -194,7 +194,7 @@ const Step1Info = ({ data, update }: { data: any, update: (d: any) => void }) =>
                             className="font-mono text-sm bg-muted/50"
                         />
                         <p className="text-xs text-muted-foreground">
-                            Olimpiada manzili: hogwords.uz/olympiads/<strong>{data.slug || '...'}</strong>
+                            Olimpiada manzili: hogwarts.uz/olympiads/<strong>{data.slug || '...'}</strong>
                         </p>
                     </div>
 

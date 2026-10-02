@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getBaseUrl = () => {
-    return "https://api.hogwords.uz";
+    return import.meta.env.VITE_API_BASE_URL || "https://api.hogwarts.uz";
 };
 
 export const getImageUrl = (path: string | null | undefined, name?: string) => {
